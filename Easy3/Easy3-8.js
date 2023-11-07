@@ -2,15 +2,15 @@ function getGrade(score1, score2, score3) {
   let average = Math.floor((score1 + score2 + score3) / 3);
 
   if (average >= 90) {
-    return 'A';
+    return "A";
   } else if (average >= 80) {
-    return 'B';
+    return "B";
   } else if (average >= 70) {
-    return 'C';
+    return "C";
   } else if (average >= 60) {
-    return 'D';
+    return "D";
   } else {
-    return 'F';
+    return "F";
   }
 }
 

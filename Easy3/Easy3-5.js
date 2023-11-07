@@ -1,9 +1,9 @@
 function triangle(num) {
-  let stars = '*';
-  let spaces = '                                               '
+  let stars = "*";
+  let spaces = "                                               ";
   for (let i = 1; i <= num; i++) {
     console.log(spaces.slice(i, num) + stars);
-    stars += '*';
+    stars += "*";
   }
 }
 

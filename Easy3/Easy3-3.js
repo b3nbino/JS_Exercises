@@ -1,11 +1,11 @@
 function stringy(num) {
-  let bin = '1';
+  let bin = "1";
 
   for (let i = 0; i < num - 1; i++) {
-    if (bin[i] === '1') {
-      bin += '0';
+    if (bin[i] === "1") {
+      bin += "0";
     } else {
-      bin += '1';
+      bin += "1";
     }
   }
 
