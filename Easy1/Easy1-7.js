@@ -9,6 +9,6 @@ function shortLongShort(x, y) {
   }
 }
 
-console.log(shortLongShort('abc', 'defgh'));    // "abcdefghabc"
-console.log(shortLongShort('abcde', 'fgh'));    // "fghabcdefgh"
-console.log(shortLongShort('', 'xyz'));    // "xyz"
+console.log(shortLongShort("abc", "defgh")); // "abcdefghabc"
+console.log(shortLongShort("abcde", "fgh")); // "fghabcdefgh"
+console.log(shortLongShort("", "xyz")); // "xyz"

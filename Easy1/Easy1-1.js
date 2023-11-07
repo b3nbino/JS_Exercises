@@ -2,7 +2,7 @@
 //This method returns true if the number's absolute value is odd. You may assume that the argument is a valid integer value.
 
 function isOdd(num) {
-  return (num % 2) === 0 ? false : true;
+  return Math.abs(num) % 2 === 0 ? false : true;
 }
 
 console.log(isOdd(2)); // => false
