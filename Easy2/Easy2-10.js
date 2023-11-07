@@ -1,7 +1,7 @@
-let rlSync = require('readline-sync');
+let rlSync = require("readline-sync");
 
-let age = rlSync.question('What is your age?');
-let retirementAge = rlSync.question('At what age would you like to retire?');
+let age = rlSync.question("What is your age?");
+let retirementAge = rlSync.question("At what age would you like to retire?");
 
 let yearsUntilRetirement = retirementAge - age;
 let today = new Date();

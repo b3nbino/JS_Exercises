@@ -4,12 +4,11 @@
  **/
 
 function greetings(array, object) {
-  let name = array.join(' ');
-  let adress = Object.values(object).join(' ');
+  let name = array.join(" ");
+  let adress = Object.values(object).join(" ");
 
-  return `Hello, ${name}! Nice to have a ${adress} around.`
+  return `Hello, ${name}! Nice to have a ${adress} around.`;
 }
-
 
 console.log(
   greetings(["John", "Q", "Doe"], { title: "Master", occupation: "Plumber" })
